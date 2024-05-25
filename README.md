@@ -75,3 +75,4 @@ vehicle-simulation-app/
 ### Deployment
 1. Sign in to Netlify and create a new site from your GitHub repository.
 2. Follow the on-screen instructions to deploy the app.
+3. Deployment Link : https://master--vehicle-simulator.netlify.app/
