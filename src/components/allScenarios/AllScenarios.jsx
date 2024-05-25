@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { deleteScenario, getScenarios } from '../../utils/Api';
@@ -16,7 +16,7 @@ const AllScenarios=({ vehicles, setVehicles }) => {
             setVehicles(scenariosData);
         };
         fetchData();
-    }, []);
+    }, [setVehicles]);
 
     const handleDeleteScenario=async (id) => {
         try {
