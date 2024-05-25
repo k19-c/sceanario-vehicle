@@ -49,25 +49,28 @@ This project is a vehicle simulation application built using React.js and JSON s
 
 ### Project Structure
 vehicle-simulation-app/
+
 ├── public/
 │ ├── index.html
 │ └── ...
 ├── src/
 │ ├── components/
-│ │ ├── AddScenario.js
-│ │ ├── AddVehicle.js
-│ │ ├── Home.js
+│ │ ├── AddScenario.jsx
+│ │ ├── AddVehicle.jsx
+│ │ ├── Home.jsx
 │ │ └── ...
 │ ├── utils/
 │ │ └── api.js
-│ ├── App.js
+│ ├── App.jsx
 │ ├── index.js
-│ └── ...
-│ ├──data.json
-│ └── 
+│ └── data.json
+├── svg/
+│ ├── Delete.jsx
+│ |__ Edit.jsx 
+│ │__ Plus.jsx
+│
 ├── README.md
 └── package.json
-
 
 ### Deployment
 1. Sign in to Netlify and create a new site from your GitHub repository.
