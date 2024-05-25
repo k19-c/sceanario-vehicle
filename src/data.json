@@ -1,0 +1,50 @@
+{
+    "scenarios": [
+        {
+            "id": 1,
+            "name": "Test Scenario",
+            "time": 10,
+            "vehicles": [
+                {
+                    "id": 1,
+                    "name": "Bus",
+                    "initialX": 30,
+                    "initialY": 215,
+                    "speed": 150,
+                    "direction": "Towards"
+                },
+                {
+                    "id": 2,
+                    "name": "Car",
+                    "initialX": 500,
+                    "initialY": 500,
+                    "speed": 120,
+                    "direction": "Upwards"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "My Scenario",
+            "time": 10,
+            "vehicles": [
+                {
+                    "id": 1,
+                    "name": "Truck",
+                    "initialX": 20,
+                    "initialY": 415,
+                    "speed": 3,
+                    "direction": "Towards"
+                },
+                {
+                    "id": 2,
+                    "name": "Bike",
+                    "initialX": 400,
+                    "initialY": 400,
+                    "speed": 5,
+                    "direction": "Upwards"
+                }
+            ]
+        }
+    ]
+}

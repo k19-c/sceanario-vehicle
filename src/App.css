@@ -1,0 +1,58 @@
+.App {
+    display: flex;
+    min-height: 100vh;
+    background: #1c1c1c;
+    color: white;
+}
+
+.form-container input {
+    border-radius: 5px;
+    background-color: #3f3f3f;
+    color: white;
+    border: 2px solid grey;
+}
+
+.form-container,
+.table-container,
+.home-container {
+    flex-grow: 1;
+    padding: 50px; 
+}
+
+
+.form-container button{ 
+    width: 5rem;
+    height: 2.4rem;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+.form-container input,
+.form-container select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.table-container table,
+.home-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-container th,
+.table-container td,
+.home-container th,
+.home-container td {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+
+

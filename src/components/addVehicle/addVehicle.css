@@ -1,0 +1,21 @@
+.input-container {
+    background: #3f3f3f;
+    width: 47rem;
+    padding: 30px;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.vehicle-select {
+    width: 16rem;
+    height: 2.4rem;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,16 @@
+.flex {
+    background: #3f3f3f;
+    width: 35rem;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    align-items: center
+}
+
+.add {
+    font-size: 14px;
+    position: relative;
+    bottom: 50px;
+}

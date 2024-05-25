@@ -1,0 +1,24 @@
+.sidebar {
+    width: 200px;
+    background: #f0f8ff;
+    padding: 35px 0;
+}
+
+.sidebar .nav-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.sidebar .nav-link.active {
+    color: deepskyblue;
+    font-weight: bold;
+    background: white;
+    padding: 10px 20px;
+    /* Keep padding the same to avoid movement */
+    width: 100%;
+    /* Ensure the active link has the same width */
+    box-sizing: border-box;
+    /* Include padding in the element's total width */
+}

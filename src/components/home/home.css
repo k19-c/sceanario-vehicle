@@ -1,0 +1,72 @@
+.home-container table thead {
+    background: #333;
+}
+
+.home-container table tbody {
+    background: #F2F3F4;
+}
+
+.home-container table tbody tr td {
+    color: black;
+    text-align: center;
+}
+
+
+.home-container select {
+    width: 9.4rem;
+    height: 2.4rem;
+    background: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.simulator {
+    width: 8rem;
+    height: 2.4rem;
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.start {
+    margin-right: 20px;
+}
+
+.simulation-container {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    border: 1px solid green;
+    background-image: linear-gradient(to right, green 1px, transparent 1px),
+        linear-gradient(to bottom, green 1px, transparent 1px);
+    background-size: 80px 60px;
+
+}
+
+.vehicle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.vehicle:nth-child(1) {
+    background-color: red;
+    text-align: center;
+}
+
+.vehicle:nth-child(2) {
+    background-color: blue;
+}
+
+
+.simulator-buttons {
+    display: flex;
+    justify-content: flex-end;
+
+}
