@@ -10,7 +10,7 @@
                     "name": "Bus",
                     "initialX": 30,
                     "initialY": 215,
-                    "speed": 150,
+                    "speed": 20,
                     "direction": "Towards"
                 },
                 {
@@ -18,7 +18,7 @@
                     "name": "Car",
                     "initialX": 500,
                     "initialY": 500,
-                    "speed": 120,
+                    "speed": 30,
                     "direction": "Upwards"
                 }
             ]
@@ -33,7 +33,7 @@
                     "name": "Truck",
                     "initialX": 20,
                     "initialY": 415,
-                    "speed": 3,
+                    "speed": 10,
                     "direction": "Towards"
                 },
                 {
@@ -41,7 +41,7 @@
                     "name": "Bike",
                     "initialX": 400,
                     "initialY": 400,
-                    "speed": 5,
+                    "speed": 30,
                     "direction": "Upwards"
                 }
             ]
