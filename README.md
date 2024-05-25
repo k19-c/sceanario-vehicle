@@ -23,6 +23,7 @@ This project is a vehicle simulation application built using React.js and JSON s
     cd vehicle-simulation-app
     ```
 
+### Installation
 2. Install dependencies:
     ```sh
     npm install
@@ -66,3 +67,8 @@ vehicle-simulation-app/
 │ └── 
 ├── README.md
 └── package.json
+
+
+### Deployment
+1. Sign in to Netlify and create a new site from your GitHub repository.
+2. Follow the on-screen instructions to deploy the app.
