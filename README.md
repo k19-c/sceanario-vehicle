@@ -45,3 +45,24 @@ This project is a vehicle simulation application built using React.js and JSON s
 2. Select a scenario from the dropdown.
 3. Click "Start Simulation" to see the vehicles move according to the scenario parameters.
 
+
+### Project Structure
+vehicle-simulation-app/
+├── public/
+│ ├── index.html
+│ └── ...
+├── src/
+│ ├── components/
+│ │ ├── AddScenario.js
+│ │ ├── AddVehicle.js
+│ │ ├── Home.js
+│ │ └── ...
+│ ├── utils/
+│ │ └── api.js
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+│ ├──data.json
+│ └── 
+├── README.md
+└── package.json
